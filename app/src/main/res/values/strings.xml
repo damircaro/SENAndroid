@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SENAndroid</string>
+    <string name="api_server">http://127.0.0.1:8000/SENA_FABRICA</string>
+
 </resources>

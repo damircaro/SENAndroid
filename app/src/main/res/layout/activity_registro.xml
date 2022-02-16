@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="50dp"
+    android:gravity="center"
+    tools:context=".RegistroActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Registrarse"
+        android:textColorHint="#757575"
+        android:textSize="30sp"
+        tools:ignore="TouchTargetSizeCheck"
+        >
+
+
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/sena1"
+/>
+
+
+    <EditText
+
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+
+        android:textColorHint="#757575"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+
+        android:id="@+id/etCedula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cedula"
+        android:textColorHint="#757575"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+
+        android:id="@+id/etCelular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Celular"
+        android:textColorHint="#757575"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contrase_a"
+        android:textColorHint="#757575"
+        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+    <EditText
+
+        android:id="@+id/etConfirmar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirmar Contraseña"
+        android:textColorHint="#757575"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo"
+        android:textColorHint="#757575"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/Registrarse"
+        android:text="Registrarse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>
